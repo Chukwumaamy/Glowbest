@@ -1,0 +1,77 @@
+#hero{
+    height:800px;    
+    /* background-image: url(images/main\ building.jpg); */
+    animation: animate 20s ease-in-out infinite;
+    background-position:center;
+    background-size:cover;
+}
+
+@keyframes animate {
+0%, 100%{
+    background-image: url(images/main\ building.jpg);
+}
+20%
+{
+    background-image: url(images/conferenceroom.jpg);
+}
+40%{
+    background-image: url(images/food\ areana.jpg);
+}
+60%{
+    background-image: url(images/bedroom.jpg);
+}
+80%{
+    background-image: url(images/beach\ side.jpg);
+}
+}
+
+#hero-content{
+    width: 70%;
+    background-color:rgba(69, 209, 200, 0.8);
+    border-radius:10px;
+    padding:3.125rem 0rem;
+    text-align: center;
+    margin: 0 auto;
+    position:relative;
+    top:12.5rem;
+    box-sizing: border-box;
+    box-shadow:2px 4px 8px rgb(68, 67, 67);
+}
+
+#hero-content h1{
+    color:white;
+    text-transform: uppercase;
+    font-size:3.125rem;
+    font-family:"Raleway", sans-serif;
+    margin:0rem;
+}
+
+#hero-content p{
+    color:white;
+    text-transform: uppercase;
+    font-size:1.5rem;
+    font-weight:300;
+    margin:2rem;
+}
+
+#hero-content a{
+    text-decoration:none;
+    border-radius:8px;
+    padding:0.75rem 1.5rem;
+    background-color:yellow;
+    font-size:1.5rem;
+    color:black;
+    box-shadow:2px 4px 8px rgb(68, 67, 67);
+    font-weight:bold;
+}
+
+#hero-content a:hover{
+    background-color:rgb(142, 222, 233);
+}
+
+@media(max-width:48rem){
+    #hero-content{
+        width:100%;
+    }
+}
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+
+    <style>
+        .form-container{
+          background-color: lightcyan;
+          width: 80%;
+          margin:auto;
+          padding:1.25rem;
+          position:relative;
+          top:3.75rem;
+          border-radius: 10px;
+        }
+
+        img{
+          width:30px;
+        }
+      </style>
+
+</head>
+<body>
+
+    <div class="container">
+  
+        <div class="form-container">
+      
+          <div>
+            <label for="email" class="form-label">Registered E-mail Address:</label>
+            <input class="form-control"  type="email" placeholder="Enter Email Address Here..." required...>
+          </div>
+            <br>
+        
+          <div> 
+            <label for="password">Reservation Passcode:</label>
+            <input class="form-control" type="password" placeholder="Enter Passcode Here..." required...>
+            <p class="form-text">Passcode must be atleast 5 numbers long.</p>
+          </div>
+          <br>
+
+          <div> 
+            <label for="password">Recognized Password:</label>
+            <input class="form-control" type="password" placeholder="Enter Password Here..." required...>
+            <p class="form-text">Password must be atleast 7 characters long.</p>
+          </div>
+          <br>
+        
+          <div class="mb-3 form-check">
+            <input class="form-check-input" type="checkbox" id="remindme">
+            <label class="form-check-label" for="remindme">Remind Me</label>
+          </div>
+      
+      <div class="mb-3">
+      <label class="form-label" for="">Room/Hall Payment Receipt.</label>
+      <input class="form-control" type="file">
+      </div>
+      
+      <br>
+      <div class="input-group mb-3">
+        <span class="input-group-text"><img src="icons/nairaicon.png" alt=""></span>
+        <input type="text" class="form-control" placeholder="Enter Amount Paid Here..." required...>
+      </div>
+      
+          <br>
+          <div>
+            <button class="btn btn-primary" type="submit">Book Now</button>
+          </div>
+      
+        </div>
+      
+      </div>
+          
+        <script src="bootstrap.js"></script> 
+</body>
+</html>
